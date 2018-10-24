@@ -1,4 +1,4 @@
-# wingit.py gbpm
+# operationwingit.py gbpm
 import tkinter as tk
 import turtle
 def circle(t,x,y):
@@ -30,7 +30,7 @@ def rectangle(t,size,x,y,color):
       forward(size)
       t.right(90)
 
-def wingit():
+def operationwingit():
   tw = turtle.Screen()
   tw.clear()
   t = turtle.Turtle()
@@ -54,4 +54,4 @@ def wingit():
   circle(t,0,0)
   tw.exitonclick()
 
-wingit()
+operationwingit()
