@@ -48,6 +48,9 @@ def wingit():
   t.goto(15,-13)
   t.goto(5,-3)
   t.forward(40)
+  t.right(30)
+  t.forward(50)
+  t.right(40)
   circle(t,0,0)
   tw.exitonclick()
 
